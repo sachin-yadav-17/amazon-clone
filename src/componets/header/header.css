@@ -1,0 +1,75 @@
+.header {
+  background-color: #131921;
+  padding: 10px 20px 5px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header .search-bar {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 80px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.header .search-bar input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+}
+.header .search-bar input:focus {
+  outline: none;
+}
+.header .search-bar .search-icon {
+  background-color: #f08804;
+  padding: 6px 10px;
+  color: black;
+  width: 24px;
+  height: 24px;
+}
+.header .header-right {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.header .header-right .sign-wrapper .sign_out{
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header .header-right .sign-wrapper,
+.return-order,
+.your-prime {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header .header-right .sign-in,
+.order,
+.prime {
+  font-weight: 800;
+}
+
+.header-right .cart {
+  position: relative;
+  margin-right: 10px;
+}
+
+.header-right .cart a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-right .cart .count {
+  color: #f08804;
+  position: absolute;
+  top: -10px;
+  right: -7px;
+}

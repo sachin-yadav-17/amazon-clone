@@ -1,0 +1,9 @@
+.banner{
+    width: 100%;
+}
+
+.baaner-img-wrapper img{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -110px;
+}

@@ -1,0 +1,11 @@
+.home{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.home .product_row{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}

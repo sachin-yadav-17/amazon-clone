@@ -1,0 +1,50 @@
+.checkout {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  max-height: max-content;
+  background: white;
+  gap: 20px;
+  padding: 20px;
+}
+.checkout .checkout_left .banner_ad {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.checkout .checkout_left .basket_title {
+  padding: 10px 0;
+  border-bottom: 2px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.checkout .checkout_left .basket_title button {
+    padding: 10px;
+    border-radius: 8px;
+    background: #f0c14b;
+    border: none;
+    cursor: pointer;
+    color: #0f1111;
+}
+
+.checkout .checkout_left .basket_title button:hover {
+    opacity: 0.7;
+}
+.checkout .checkout_left .basket_title button:disabled {
+    cursor: not-allowed;
+    background: #f0c14b;
+    opacity: 1;
+}
+
+.checkout .checkout_left .basket_contanier {
+  margin-top: 20px;
+}
+
+.checkout .checkout_right {
+  width: 100%;
+  max-width: 300px;
+}
